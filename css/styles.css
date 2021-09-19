@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+#chat {
+    width: 250px;
+    height: 40px;
+    background:magenta;
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
+}
+
+header {
+    width: 1000px;
+    height: 120px;
+    /* background-color: #4A4A4E; */
+    position: relative;
+    margin: 20px auto;
+}
+
+#logo {
+    width: 200px;
+    height: 60px;
+    /* background-color: #D1D2D5; */
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.redes {
+    width: 40px;
+    height: 40px;
+    /* background-color: #D1D2D5; */
+    position: absolute;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+#icono1 {
+    top: 40px;
+    right: 120px; 
+    background-color: violet;
+}
+
+#icono2 {
+    top: 40px;
+    right: 70px;
+    background-color: springgreen;
+}
+
+#icono3 {
+    top: 40px;
+    right: 20px;
+    background-color: peru;
+}
+
+nav {
+    width: 1000px;
+    height: 48px;
+    position: relative;
+    margin: auto;
+}
+
+.botones {
+    width: 196px;
+    height: 48px;
+    background: rgba(100, 0, 255, 1);
+    margin: 0 2px;
+    float: left;
+    font-family: 'Caveat', cursive;
+    font-size: 32px;
+    text-align: center;
+    line-height: 48px;
+    color: white;
+}
+
+a .botones:hover {
+    background:rgba(100, 0, 255, .6)
+}
+
+a .botones:active {
+    background:rgba(255, 0, 100, 1)
+}
+
+#top {
+    width: 1000px;
+    height: 192px;
+    position: relative;
+    margin: 20px auto;
+}
+
+#top ul {
+    width: 1010px;
+    height: 192px;
+}
+
+#top ul li {
+    width: 326px;
+    height: 192px;
+    /* background-color: #96979B; */
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+}
+
+#top ul li img {
+    border-radius: 100%;
+}
+
+#top ul li h2{
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+}
+
+#top ul li p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+section {
+    width: 1000px;
+    height: 453px;
+    /* background-color: #4A4A4E; */
+    position: relative;
+    margin: auto;
+}
+
+#izq {
+    width: 200px;
+    height: 453px;
+    /* background-color: #96979B; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#izq ul li {
+    background-color: #AAA;
+    padding: 10px;
+    margin: 3px 10px;
+    list-style: square;
+    list-style-position: inside;
+    list-style-image: url("./img/enlace.png");
+}
+
+#izq ul li a {
+    text-decoration: none;
+}
+
+article {
+    width: 600px;
+    height: 453px;
+    /* background-color: #4A4A4E; */
+    margin-left: 200px;
+}
+
+article h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    margin: 20px;
+}
+
+article p img {
+    float: left;
+    margin-right: 20px;
+}
+
+article p {
+    margin: 5px 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#der {
+    width: 200px;
+    height: 453px;
+    /* background-color: #96979B; */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#der h2 {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgba(100, 0, 255, 1);
+    color: white;
+    margin-bottom: 5px;
+}
+
+#der input {
+    width: 146px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#der input[type="email"] {
+    background: url("./img/usuario.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding-right: 40px;
+}
+
+#der input[type="password"] {
+    background: url("./img/password.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding-right: 40px;
+}
+
+#der input[type="submit"] {
+    width: 200px;
+    background:rgba(100, 0, 255, .6);
+    border: 0;
+}
+
+#der input[type="submit"]:hover {
+    background:rgba(100, 0, 255, .8);
+    cursor: pointer;
+}
+
+#der input[type="submit"]:active {
+    background:rgba(255, 0, 100, 1);
+}
+
+footer {
+    width: 1000px;
+    height: 70px;
+    background-color: #96979B;
+    position: relative;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    background: rgba(100, 0, 255, 1);
+}
